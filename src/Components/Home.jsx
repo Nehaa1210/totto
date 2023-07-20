@@ -11,12 +11,10 @@ const Home = () => {
             TOTC is an interesting platform that will teach you in more an
             interactive way
           </p>
-            <button>Join for free</button>
+            <button  class="btn btn-outline-success">Join for free</button>
         </div>
         <div className="imgggg">
             <img src={girl} alt="" />
-
-
         </div>
 
    
