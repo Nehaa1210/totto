@@ -54,27 +54,36 @@
 
 
 .left{
- width: 400px;
+ width: 500px;
  height: 250px;
+ //border: 1px solid red;
+ button{
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background: var(--bg2);
+ }
 //  padding: 20px 10px;
 //  border: 1px solid rgb(37, 29, 29);
  p{
    margin-top: 15px;
    margin-bottom: 15px;
+   color: white;
  }
 }
 
 .section1{
-    // background-color: yellow;
+    height: 78vh;
+    background: var(--bg1);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 100px;
     .imgggg{
-        width: 300px;
-        height: 400px;
+        width: 27%;
+       // height: 400px;
         // border: 1px solid red;
-        margin-top: 50px;
+       // margin-top: 10px;
 
         img{
 
@@ -97,7 +106,40 @@
   box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
   h2{
     margin: auto;
-  }
-  
-  
-} 
+  }   
+}
+
+// Our Success Container
+
+.section2{
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.success{
+  padding-top: 35px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.success h1{
+ // color: linear-gradient(90deg, #136CB5 0%, #49BBBD 100%);
+ font-family: Buenos Aires Trial;
+font-size: 46px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 96px */
+  background: var(--accent-gradient, linear-gradient(90deg, #136CB5 0%, #49BBBD 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+//All in one cloud software
+
