@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import Bookval from './context/Bookval';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <Bookval>
   <BrowserRouter>
     <App />
   </BrowserRouter>
+  </Bookval>
 );
 
 // If you want to start measuring performance in your app, pass a function
