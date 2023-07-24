@@ -8,6 +8,7 @@
 }
 :root {
   --bg1: #49bbbd;
+  --bg5: #016c6d;
   --bg2: #ffffff4d;
   --bg3: #136cb5;
   --bg4: white;
@@ -29,10 +30,29 @@
 
   .logo {
     color: var(--text);
+    img{
+      width: 50%;
+    }
   }
 
   .menu {
     color: var(--text);
+    margin: 0;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  li{
+    padding: 8px 20px;
+    border-radius: 4px;
+  }
+  li:hover{
+    background: var(--bg5);
+
+  }
+  .log{
+    color: var(--bg5);
   }
 
   .login {
@@ -73,8 +93,10 @@
 }
 
 .section1{
-    height: 78vh;
-    background: var(--bg1);
+    height: calc(100vh - 64px);
+    // background: var(--bg1);
+    background: url("./assets/wave.png");
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,13 +134,13 @@
 // Our Success Container
 
 .section2{
-  margin-top: 70px;
+  margin-top: 90px;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 110px;
 }
 
 .success{
-  padding-top: 35px;
+  padding-top: 51px;
   width: 50%;
   display: flex;
   justify-content: space-between;
@@ -143,3 +165,99 @@ background-clip: text;
 
 //All in one cloud software
 
+
+.section3{
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 130px;
+}
+.clouds{
+  padding-top: 45px;
+  /* width: 60%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit , 400px);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  div{
+    padding: 50px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+  }
+}
+
+
+
+//What is TutoTution
+
+.section4{
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 130px;
+  
+}
+.tuto{
+  padding-top: 45px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  div{
+    width: 45%;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+.tutoImg{
+  position: relative;
+  div{
+    background: rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    button{
+      padding: 10px 20px;
+      border-radius: 30px;
+      border: none;
+      //background: var(--bg2);
+      //border-radius: 80px;
+      background: rgba(49, 197, 242, 0.9);
+     }
+  }
+}
+
+.phyClass{
+  padding-top: 100px;
+  padding-bottom: 110px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  div{
+    width: 47%;
+  }
+  div img{
+    width: 100%;
+  }
+}
+
+
+// 
+
+.playvideo{
+  .data-item{
+    width: 800px;
+    
+  }
+}
